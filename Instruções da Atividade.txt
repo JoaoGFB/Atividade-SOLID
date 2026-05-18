@@ -1,0 +1,42 @@
+Atividade — Aplicando os Princípios SOLID 
+
+1. Single Responsibility Principle (SRP) 
+Você deverá implementar funcionalidades relacionadas ao gerenciamento de pedidos do sistema de delivery. 
+O sistema deverá: 
+    ● criar um pedido 
+    ● salvar um pedido 
+    ● exibir as informações de um pedido 
+Porém, o primeiro princípio do SOLID deverá ser respeitado. 
+As responsabilidades deverão ser separadas corretamente entre as classes. 
+
+2. Open/Closed Principle (OCP) 
+Você deverá implementar diferentes formas de pagamento para o sistema. O sistema deverá possuir pelo menos: 
+    ● pagamento via cartão 
+    ● pagamento via PIX 
+    ● pagamento via dinheiro 
+O sistema deverá permitir adicionar novos tipos de pagamento futuramente sem alterar o código já existente. 
+
+3. Liskov Substitution Principle (LSP) 
+Você deverá implementar diferentes tipos de produtos do restaurante. O sistema deverá possuir uma classe principal de produto e subclasses como: 
+    ● Pizza 
+    ● Hamburguer 
+    ● Bebida 
+Todas as subclasses deverão poder ser utilizadas normalmente no lugar da classe principal sem causar comportamentos incorretos.
+
+4. Interface Segregation Principle (ISP) 
+Você deverá implementar diferentes responsabilidades do sistema utilizando interfaces específicas. 
+O sistema deverá possuir funcionalidades como: 
+    ● envio de notificações 
+    ● geração de relatórios 
+    ● gerenciamento de pedidos 
+    ● gerenciamento de entregas 
+As classes não deverão implementar métodos que não utilizam. 
+
+5. Dependency Inversion Principle (DIP) 
+Você deverá implementar um sistema de notificações desacoplado. O sistema deverá permitir o envio de notificações utilizando diferentes meios, como: 
+    ● Email 
+    ● SMS 
+    ● WhatsApp 
+A classe principal do sistema não poderá depender diretamente de implementações concretas, mas sim de abstrações/interfaces. 
+Entrega 
+Você deverá subir a atividade no github e realizar a entrega no classroom do link.
