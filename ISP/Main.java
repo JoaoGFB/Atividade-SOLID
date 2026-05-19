@@ -2,10 +2,14 @@ package ISP;
 
 public class Main {
     public static void main(String[] args) {
-        Responsabilidades usuario = new Responsabilidades();
-        usuario.gerenciamentoPedidos();
-        usuario.enviarNotificacoes();
-        usuario.gerenciamentoEntregas();
-        usuario.gerarRelatorios();
+        Atendente atendente = new Atendente();
+        atendente.gerenciarPedidos();
+        atendente.gerarRelatorios();
+
+        SistemaNotificacao notificacao = new SistemaNotificacao();
+        notificacao.enviarNotificacoes();
+
+        Entregador entregador = new Entregador();
+        entregador.gerenciarEntregas();
     }
 }
